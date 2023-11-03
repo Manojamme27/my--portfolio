@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/97c5e407ef.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/MANOJ.-removebg-preview.png" alt="manoj" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick=" closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>WEB DEVELOPER</p>
+                <h1>Hi,<span> I'm Manoj</span><br> From India</br></h1>
+            </div>
+        </div>
+    </div>
+    <!-----about----->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-01">
+                    <img src="images/user.png" alt="manoj">
+                </div>
+                <div class="about-col-02">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a web developer who enjoys creating attractive and functional websites.I have knowledge in
+                        both front-end and back-end development and stay updated with the latest trends.I pay attention
+                        to detail,solve problems,and work well in a team.I'm always eager to learn and improve my
+                        skills.My goal is to contribute to building great website that look good and work smoothly.</p>
+                    <div class="tab-titles ">
+                        <p class="tab-links active-links" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>C++ development</span><br>Game development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2023-Current</span><br>Internship at Cloud Counslage pvt.limited </li>
+                            <li><span>2022-2023</span><br>Full Stack Development Training at Udemy</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2025</span><br>B.Tech From Central University Chhatisgarh</li>
+                            <li><span>2020</span><br>Intermediate from Srichaithanya junior kalashala</li>
+                            <li><span>2018</span><br>Secondary Education from SPR School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------services------------------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Executes assignments with the use of web applications, scripts, and programming languages such as
+                        HTML, CSS, JavaScript,
+                        and APIs.</p>
+                    <a href="https://www.geeksforgeeks.org/web-design/">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Possesses strong analytical and User-Centered design skills to create holistic solutions that are
+                        functional and
+                        research-driven.</p>
+                    <a href="https://www.geeksforgeeks.org/user-experience-or-ux-design/">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-gamepad"></i>
+                    <h2>Game Design</h2>
+                    <p>Executes assignments with the use of web applications, scripts, and programming languages such as
+                        C++ and other skills</p>
+                    <a href="https://www.geeksforgeeks.org/game-development-with-unity-introduction/">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------------------portfolio---------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>College Search Website</h3>
+                        <P>The Website helps students to search colleges and colleges inforamtion all around india
+                            without any ads and irrelevant information.</P>
+                        <a href="https://manojamme27.github.io/Cloud-Project/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Temperature converter</h3>
+                        <P>The Website helps people to convert the temperature from one state to other state.</P>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Netfilx App</h3>
+                        <P>The App connects people with film universe around world.Download it from play store.</P>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-------------------------contact---------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>manojamme3@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>6304513308</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/manoj.amme?mibextid=ZbWKwL"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href=" https://x.com/ManojAmme?t=WuN5o5ISNdNKFwiLFK7HNw&s=08"><i
+                                class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href="https://instagram.com/mr_dexter_27?igshid=YTQwZjQ0NmI0OA=="><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/manoj-amme-4569b1228"><i
+                                class="fa-brands fa-linkedin"></i></a>
+
+                    </div>
+                    <a href="images/Amme Manoj _Resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg">
+
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Manoj. Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-links");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <script>
+
+        <form name="submit-to-google-sheet">
+            <input name="Email" type="email" placeholder="Email" required />
+            <button type="submit">Send</button>
+        </form>
+
+
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxhYCz8HdUhfqJnMoCj-HJ0vzsY-73auxgKQcZft8W2j0_LXiou_lWwGWIHZFs0ISlb/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent succesfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
